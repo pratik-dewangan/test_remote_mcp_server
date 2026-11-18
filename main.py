@@ -8,7 +8,7 @@ DB_PATH = os.path.join(TEMP_DIR, "expenses.db")
 CATEGORIES_PATH = os.path.join(os.path.dirname(__file__), "categories.json")
 
 print(f"Database path: {DB_PATH}")
-
+print()
 mcp = FastMCP("ExpenseTracker")
 
 def init_db():  # Keep as sync for initialization
